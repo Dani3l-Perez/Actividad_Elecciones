@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+}
+
+.candidatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.candidato {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.candidato:hover {
+    transform: scale(1.05);
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.boton {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 25px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resultados {
+    margin-top: 30px;
+    text-align: center;
+}
